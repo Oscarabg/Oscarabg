@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.ecran{
+    width:100%;
+    height:100vh;
+    background-image:url(designer.jpg);
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.carte{
+    width:90%;
+    max-width:440px;
+    color:aliceblue;
+    text-align:center;
+    padding:50px 30px;
+    border:1px solid rgba(255, 255, 255, 0.3);
+    background:rgba(255, 255, 255, 0.2);
+    border-radius:16px;
+    box-shadow:rgba(0,0, 0, 0 .1);
+    backdrop-filter:blur(5px);
+}
+
+ .carte img{
+    width:170px;
+    border-radius:50%;
+    border:1px solid #fff;
+}
+ .carte h2{
+    color: #fff;
+    font-weight:600px;
+    margin-top:-8px;
+    font-size:30px;
+    text-align: center;
+    font-family:'playfair display', sans-serif;
+}
+.carte p{
+    font-size:30px;
+    margin-top:-23px;
+}
+.carte .reseau img{
+    width:50px;
+    border-radius:50px;
+    margin:10px 10px;
+    padding:3px 3px;
+    transition: 0.5s;
+}
+.carte h1{
+    text-align:center;
+    font-size:30px;
+    font-family:'playfair display', sans-serif;
+}
+.carte .reseau img:hover{
+    background:rgb(240,90,195);
+}
+.button{
+    text-decoration:none;
+    display:inline-block;
+    font-size:25px;
+    background:#fff;
+    color: #000;
+    border-radius:10px 10px;
+    padding:6px 6px;
+}
+.button:hover{
+    background:blueviolet;
+}
+
